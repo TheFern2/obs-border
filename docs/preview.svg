@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 660" width="1100" height="660" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="wallpaper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b5bdb"/>
+      <stop offset="0.55" stop-color="#7048e8"/>
+      <stop offset="1" stop-color="#c2255c"/>
+    </linearGradient>
+
+    <!-- A 5120x1440 desktop drawn at 1000x281 -->
+    <g id="desktop">
+      <rect width="1000" height="281" fill="url(#wallpaper)"/>
+      <rect width="1000" height="8" fill="#fff" fill-opacity="0.75"/>
+      <circle cx="8" cy="4" r="2" fill="#333"/>
+      <rect x="16" y="2.5" width="18" height="3" rx="1" fill="#333" fill-opacity="0.6"/>
+      <rect x="40" y="2.5" width="14" height="3" rx="1" fill="#333" fill-opacity="0.4"/>
+      <rect x="950" y="2.5" width="40" height="3" rx="1" fill="#333" fill-opacity="0.5"/>
+
+      <!-- Notes window, outside the recorded area -->
+      <g transform="translate(18,40)">
+        <rect width="140" height="190" rx="5" fill="#fffbe6"/>
+        <rect width="140" height="12" rx="5" fill="#f1e9c6"/>
+        <circle cx="7" cy="6" r="2" fill="#ff5f57"/><circle cx="14" cy="6" r="2" fill="#febc2e"/><circle cx="21" cy="6" r="2" fill="#28c840"/>
+        <rect x="10" y="22" width="80" height="4" rx="2" fill="#5c4d1a" fill-opacity="0.7"/>
+        <rect x="10" y="34" width="110" height="3" rx="1.5" fill="#5c4d1a" fill-opacity="0.35"/>
+        <rect x="10" y="42" width="96" height="3" rx="1.5" fill="#5c4d1a" fill-opacity="0.35"/>
+        <rect x="10" y="50" width="104" height="3" rx="1.5" fill="#5c4d1a" fill-opacity="0.35"/>
+        <rect x="10" y="62" width="70" height="3" rx="1.5" fill="#5c4d1a" fill-opacity="0.35"/>
+        <rect x="10" y="70" width="90" height="3" rx="1.5" fill="#5c4d1a" fill-opacity="0.35"/>
+      </g>
+
+      <!-- Code editor, inside the recorded area -->
+      <g transform="translate(200,62)">
+        <rect width="230" height="160" rx="5" fill="#1e1e2e"/>
+        <rect width="230" height="12" rx="5" fill="#2a2a3c"/>
+        <circle cx="7" cy="6" r="2" fill="#ff5f57"/><circle cx="14" cy="6" r="2" fill="#febc2e"/><circle cx="21" cy="6" r="2" fill="#28c840"/>
+        <rect x="0" y="12" width="40" height="148" fill="#181825"/>
+        <rect x="6" y="20" width="26" height="3" rx="1.5" fill="#cdd6f4" fill-opacity="0.4"/>
+        <rect x="6" y="28" width="22" height="3" rx="1.5" fill="#cdd6f4" fill-opacity="0.4"/>
+        <rect x="6" y="36" width="28" height="3" rx="1.5" fill="#cdd6f4" fill-opacity="0.4"/>
+        <rect x="50" y="22" width="30" height="4" rx="2" fill="#cba6f7"/><rect x="84" y="22" width="60" height="4" rx="2" fill="#89b4fa"/>
+        <rect x="58" y="32" width="40" height="4" rx="2" fill="#f38ba8"/><rect x="102" y="32" width="70" height="4" rx="2" fill="#a6e3a1"/>
+        <rect x="58" y="42" width="90" height="4" rx="2" fill="#cdd6f4" fill-opacity="0.7"/>
+        <rect x="66" y="52" width="50" height="4" rx="2" fill="#fab387"/><rect x="120" y="52" width="40" height="4" rx="2" fill="#89b4fa"/>
+        <rect x="66" y="62" width="110" height="4" rx="2" fill="#cdd6f4" fill-opacity="0.7"/>
+        <rect x="58" y="72" width="20" height="4" rx="2" fill="#cba6f7"/>
+        <rect x="50" y="82" width="10" height="4" rx="2" fill="#cdd6f4" fill-opacity="0.7"/>
+        <rect x="50" y="98" width="30" height="4" rx="2" fill="#cba6f7"/><rect x="84" y="98" width="54" height="4" rx="2" fill="#89b4fa"/>
+        <rect x="58" y="108" width="80" height="4" rx="2" fill="#a6e3a1"/>
+        <rect x="58" y="118" width="60" height="4" rx="2" fill="#cdd6f4" fill-opacity="0.7"/>
+        <rect x="50" y="128" width="10" height="4" rx="2" fill="#cdd6f4" fill-opacity="0.7"/>
+      </g>
+
+      <!-- Browser window being dragged across the edge -->
+      <g transform="translate(470,128)">
+        <rect width="150" height="100" rx="5" fill="#ffffff"/>
+        <rect width="150" height="14" rx="5" fill="#e9ecef"/>
+        <circle cx="7" cy="7" r="2" fill="#ff5f57"/><circle cx="14" cy="7" r="2" fill="#febc2e"/><circle cx="21" cy="7" r="2" fill="#28c840"/>
+        <rect x="30" y="4" width="100" height="6" rx="3" fill="#fff"/>
+        <rect x="10" y="22" width="130" height="34" rx="3" fill="#d0ebff"/>
+        <rect x="10" y="62" width="80" height="4" rx="2" fill="#495057"/>
+        <rect x="10" y="71" width="120" height="3" rx="1.5" fill="#adb5bd"/>
+        <rect x="10" y="78" width="110" height="3" rx="1.5" fill="#adb5bd"/>
+        <rect x="10" y="85" width="90" height="3" rx="1.5" fill="#adb5bd"/>
+      </g>
+
+      <!-- OBS, outside the recorded area -->
+      <g transform="translate(690,26)">
+        <rect width="290" height="220" rx="5" fill="#1f1e1f"/>
+        <rect width="290" height="12" rx="5" fill="#2b2a2b"/>
+        <circle cx="7" cy="6" r="2" fill="#ff5f57"/><circle cx="14" cy="6" r="2" fill="#febc2e"/><circle cx="21" cy="6" r="2" fill="#28c840"/>
+        <rect x="10" y="20" width="270" height="140" fill="#000"/>
+        <rect x="70" y="40" width="150" height="100" fill="#3a3a5a"/>
+        <rect x="10" y="168" width="64" height="44" rx="3" fill="#2b2a2b"/>
+        <rect x="80" y="168" width="64" height="44" rx="3" fill="#2b2a2b"/>
+        <rect x="150" y="168" width="64" height="44" rx="3" fill="#2b2a2b"/>
+        <rect x="220" y="168" width="60" height="44" rx="3" fill="#2b2a2b"/>
+        <rect x="226" y="176" width="48" height="8" rx="2" fill="#3c3b3c"/>
+        <rect x="226" y="190" width="48" height="8" rx="2" fill="#c92a2a"/>
+      </g>
+
+      <!-- Dock -->
+      <rect x="430" y="262" width="140" height="16" rx="5" fill="#fff" fill-opacity="0.35"/>
+      <rect x="436" y="265" width="10" height="10" rx="2.5" fill="#4dabf7"/>
+      <rect x="452" y="265" width="10" height="10" rx="2.5" fill="#69db7c"/>
+      <rect x="468" y="265" width="10" height="10" rx="2.5" fill="#ffd43b"/>
+      <rect x="484" y="265" width="10" height="10" rx="2.5" fill="#ff8787"/>
+      <rect x="500" y="265" width="10" height="10" rx="2.5" fill="#1f1e1f"/>
+      <rect x="516" y="265" width="10" height="10" rx="2.5" fill="#b197fc"/>
+      <rect x="532" y="265" width="10" height="10" rx="2.5" fill="#e9ecef"/>
+      <rect x="548" y="265" width="10" height="10" rx="2.5" fill="#868e96"/>
+    </g>
+  </defs>
+
+  <rect width="1100" height="660" rx="12" fill="#f1f3f5"/>
+
+  <!-- Your screen -->
+  <text x="50" y="30" font-size="15" font-weight="600" fill="#212529">On your screen</text>
+  <text x="1050" y="30" font-size="13" fill="#868e96" text-anchor="end">5120 × 1440 display</text>
+  <g transform="translate(50,42)">
+    <rect x="-8" y="-8" width="1016" height="297" rx="10" fill="#212529"/>
+    <use xlink:href="#desktop"/>
+    <!-- Optional dimming outside the recorded area -->
+    <path d="M0 0H1000V281H0Z M180 45V256H555V45Z" fill="#000" fill-opacity="0.35" fill-rule="evenodd"/>
+    <!-- The border, drawn just outside the recorded area -->
+    <rect x="178" y="43" width="379" height="215" fill="none" stroke="#fa3232" stroke-width="4"/>
+  </g>
+  <text x="550" y="364" font-size="13" fill="#495057" text-anchor="middle">The border sits just outside the recorded area. Outside it can optionally be dimmed.</text>
+
+  <!-- Arrow -->
+  <path d="M550 380V400" stroke="#adb5bd" stroke-width="2"/>
+  <path d="M543 396L550 405L557 396" fill="none" stroke="#adb5bd" stroke-width="2"/>
+
+  <!-- What gets recorded -->
+  <text x="550" y="432" font-size="15" font-weight="600" fill="#212529" text-anchor="middle">In the recording (1920 × 1080)</text>
+  <rect x="425" y="444" width="250" height="141" fill="#212529"/>
+  <svg x="427" y="446" width="246" height="137" viewBox="180 45 375 211" preserveAspectRatio="xMidYMid slice">
+    <use xlink:href="#desktop"/>
+  </svg>
+  <text x="550" y="614" font-size="13" fill="#495057" text-anchor="middle">No border, no dimming: only the area inside it.</text>
+</svg>
